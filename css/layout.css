@@ -1,4 +1,8 @@
-@media (width>=800px) {
+.billedegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 800px) {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -88,7 +92,4 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  /*.flex_col:last-child{
-
-  }*/
 }
